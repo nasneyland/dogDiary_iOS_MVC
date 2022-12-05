@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD05CA412548F5D800E27083 /* SmsAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD05CA402548F5D800E27083 /* SmsAuthViewController.swift */; };
+		FD05CA452548F6FC00E27083 /* MemberVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD05CA442548F6FC00E27083 /* MemberVO.swift */; };
+		FD05CA61254901A700E27083 /* Cafe24Ssurround.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA4C254901A200E27083 /* Cafe24Ssurround.ttf */; };
+		FD05CA62254901A700E27083 /* Maplestory OTF Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA4D254901A200E27083 /* Maplestory OTF Light.otf */; };
+		FD05CA63254901A700E27083 /* Cafe24Ohsquareair.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA4E254901A200E27083 /* Cafe24Ohsquareair.ttf */; };
+		FD05CA65254901A700E27083 /* Gong Gothic OTF Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA50254901A300E27083 /* Gong Gothic OTF Medium.otf */; };
+		FD05CA66254901A700E27083 /* Gong Gothic OTF Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA51254901A300E27083 /* Gong Gothic OTF Light.otf */; };
+		FD05CA67254901A700E27083 /* CookieRun Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA52254901A300E27083 /* CookieRun Black.ttf */; };
+		FD05CA68254901A700E27083 /* Maplestory OTF Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA53254901A300E27083 /* Maplestory OTF Bold.otf */; };
+		FD05CA69254901A700E27083 /* ImcreSoojin OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA54254901A300E27083 /* ImcreSoojin OTF.otf */; };
+		FD05CA6B254901A700E27083 /* Recipekorea 레코체 FONT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA56254901A400E27083 /* Recipekorea 레코체 FONT.ttf */; };
+		FD05CA6C254901A700E27083 /* CookieRun Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA57254901A400E27083 /* CookieRun Bold.ttf */; };
+		FD05CA6D254901A700E27083 /* Gong Gothic OTF Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA58254901A400E27083 /* Gong Gothic OTF Bold.otf */; };
+		FD05CA73254901A700E27083 /* CookieRun Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD05CA5E254901A700E27083 /* CookieRun Regular.ttf */; };
+		FD05CA7B254926CF00E27083 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD05CA7A254926CF00E27083 /* HomeViewController.swift */; };
+		FD0DFBB6256677E400C6E8E8 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0DFBB4256677E400C6E8E8 /* CalendarCollectionViewCell.swift */; };
+		FD0DFBB7256677E400C6E8E8 /* CalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD0DFBB5256677E400C6E8E8 /* CalendarCollectionViewCell.xib */; };
+		FD32E4AC257F6D71008ED7B6 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4AA257F6D71008ED7B6 /* CalendarTableViewCell.swift */; };
+		FD32E4AD257F6D71008ED7B6 /* CalendarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD32E4AB257F6D71008ED7B6 /* CalendarTableViewCell.xib */; };
+		FD32E4B525808F2B008ED7B6 /* CheckAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4B425808F2B008ED7B6 /* CheckAuthViewController.swift */; };
+		FD32E4CD2580DFC4008ED7B6 /* DogVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4CC2580DFC4008ED7B6 /* DogVO.swift */; };
+		FD32E4D12580E7F4008ED7B6 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4D02580E7F4008ED7B6 /* SettingTableViewController.swift */; };
+		FD32E4E825811569008ED7B6 /* MyDogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4E625811569008ED7B6 /* MyDogCollectionViewCell.swift */; };
+		FD32E4E925811569008ED7B6 /* MyDogCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD32E4E725811569008ED7B6 /* MyDogCollectionViewCell.xib */; };
+		FD32E4EE258380F3008ED7B6 /* HomeVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4ED258380F3008ED7B6 /* HomeVO.swift */; };
+		FD32E4F52583F768008ED7B6 /* UpdateDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4F42583F768008ED7B6 /* UpdateDogViewController.swift */; };
+		FD32E4FA25870B59008ED7B6 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E4F925870B59008ED7B6 /* MailViewController.swift */; };
+		FD32E5022587A987008ED7B6 /* Pods_dogDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87351365A10CF02B3D7CD6DF /* Pods_dogDiary.framework */; };
+		FD46AF0325A2D2F800B6F201 /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46AF0225A2D2F800B6F201 /* FaqViewController.swift */; };
+		FD47C934254E69E6001D9252 /* WalkVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47C933254E69E6001D9252 /* WalkVO.swift */; };
+		FD47C938254E6C4B001D9252 /* WeightVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47C937254E6C4B001D9252 /* WeightVO.swift */; };
+		FD47C93C254E6C68001D9252 /* HeartVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47C93B254E6C68001D9252 /* HeartVO.swift */; };
+		FD47C93F254E6C7C001D9252 /* WashVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47C93E254E6C7C001D9252 /* WashVO.swift */; };
+		FD47C949254E8134001D9252 /* MoneyVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47C948254E8134001D9252 /* MoneyVO.swift */; };
+		FD47C951254FAABD001D9252 /* dogCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47C950254FAABD001D9252 /* dogCalendarViewController.swift */; };
+		FD5329F6258D41B80033318F /* LocationUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5329F5258D41B80033318F /* LocationUseViewController.swift */; };
+		FD5E322E260DA0F500717FA5 /* RemoveAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5E322D260DA0F500717FA5 /* RemoveAdViewController.swift */; };
+		FD61448D2560F000000C3F38 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61448C2560F000000C3F38 /* SettingViewController.swift */; };
+		FD614490256130B4000C3F38 /* SmsReAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61448F256130B4000C3F38 /* SmsReAuthViewController.swift */; };
+		FD649AFE25C1BF8500C432ED /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD649AFD25C1BF8500C432ED /* IAPHelper.swift */; };
+		FD649B0125DAC3D300C432ED /* EtcPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD649B0025DAC3D300C432ED /* EtcPopUpViewController.swift */; };
+		FD649B0C25DB04B000C432ED /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD649B0A25DB04B000C432ED /* ColorCollectionViewCell.swift */; };
+		FD649B0D25DB04B000C432ED /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD649B0B25DB04B000C432ED /* ColorCollectionViewCell.xib */; };
+		FD937C1825DC15FE0061B486 /* EtcVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD937C1725DC15FE0061B486 /* EtcVO.swift */; };
+		FD937C1B25DCE2F60061B486 /* CalendarVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD937C1A25DCE2F60061B486 /* CalendarVO.swift */; };
+		FD937C2025DED0180061B486 /* WalkUpdatePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD937C1F25DED0180061B486 /* WalkUpdatePopUpViewController.swift */; };
+		FD937C2625DF7EA40061B486 /* WeightUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD937C2525DF7EA40061B486 /* WeightUpdateViewController.swift */; };
+		FD937C2925DFAB700061B486 /* MoneyUpdatePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD937C2825DFAB700061B486 /* MoneyUpdatePopUpViewController.swift */; };
+		FD937C2C25DFBBF10061B486 /* EtcUpdatePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD937C2B25DFBBF10061B486 /* EtcUpdatePopUpViewController.swift */; };
+		FD937C3125EE28860061B486 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD937C3025EE28860061B486 /* AdminViewController.swift */; };
+		FDB8B9A92558027F008BCDCD /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B9A82558027F008BCDCD /* PrivacyViewController.swift */; };
+		FDB8B9AC25580296008BCDCD /* TermsAndUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B9AB25580296008BCDCD /* TermsAndUseViewController.swift */; };
+		FDB8B9AF255804DA008BCDCD /* MailAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B9AE255804DA008BCDCD /* MailAuthViewController.swift */; };
+		FDC27005258B4436009F9545 /* WalkDirectPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC27004258B4435009F9545 /* WalkDirectPopUpViewController.swift */; };
+		FDE6CA662575967C00336A93 /* Cafe24Ohsquare.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE6CA652575967C00336A93 /* Cafe24Ohsquare.ttf */; };
+		FDE6CA76257B4E5A00336A93 /* Spoqa Han Sans Neo Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDE6CA71257B4E5900336A93 /* Spoqa Han Sans Neo Bold.otf */; };
+		FDE91C5B254A46BE00BAB8B0 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE91C5A254A46BE00BAB8B0 /* JoinViewController.swift */; };
+		FDE91C62254BD30700BAB8B0 /* WalkPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE91C61254BD30700BAB8B0 /* WalkPopUpViewController.swift */; };
+		FDE91C65254BDCF100BAB8B0 /* WashPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE91C64254BDCF100BAB8B0 /* WashPopUpViewController.swift */; };
+		FDE91C68254BDD0300BAB8B0 /* WeightPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE91C67254BDD0300BAB8B0 /* WeightPopUpViewController.swift */; };
+		FDE91C6B254BDD2E00BAB8B0 /* HeartPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE91C6A254BDD2E00BAB8B0 /* HeartPopUpViewController.swift */; };
+		FDE91C6E254BDD3F00BAB8B0 /* MoneyPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE91C6D254BDD3F00BAB8B0 /* MoneyPopUpViewController.swift */; };
+		FDE91C7B254CDC8E00BAB8B0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE91C7A254CDC8E00BAB8B0 /* Common.swift */; };
+		FDFD30442548C371009BA2BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFD30432548C371009BA2BD /* AppDelegate.swift */; };
+		FDFD30462548C371009BA2BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFD30452548C371009BA2BD /* SceneDelegate.swift */; };
+		FDFD304B2548C371009BA2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFD30492548C371009BA2BD /* Main.storyboard */; };
+		FDFD304D2548C371009BA2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFD304C2548C371009BA2BD /* Assets.xcassets */; };
+		FDFD30502548C371009BA2BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFD304E2548C371009BA2BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87351365A10CF02B3D7CD6DF /* Pods_dogDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E39F71CDF14016F3C1D144 /* Pods-dogDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogDiary.debug.xcconfig"; path = "Target Support Files/Pods-dogDiary/Pods-dogDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		D7C12814922902E407D926CB /* Pods-dogDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogDiary.release.xcconfig"; path = "Target Support Files/Pods-dogDiary/Pods-dogDiary.release.xcconfig"; sourceTree = "<group>"; };
+		FD05CA402548F5D800E27083 /* SmsAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsAuthViewController.swift; sourceTree = "<group>"; };
+		FD05CA442548F6FC00E27083 /* MemberVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberVO.swift; sourceTree = "<group>"; };
+		FD05CA4C254901A200E27083 /* Cafe24Ssurround.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Ssurround.ttf; sourceTree = "<group>"; };
+		FD05CA4D254901A200E27083 /* Maplestory OTF Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maplestory OTF Light.otf"; sourceTree = "<group>"; };
+		FD05CA4E254901A200E27083 /* Cafe24Ohsquareair.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Ohsquareair.ttf; sourceTree = "<group>"; };
+		FD05CA50254901A300E27083 /* Gong Gothic OTF Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gong Gothic OTF Medium.otf"; sourceTree = "<group>"; };
+		FD05CA51254901A300E27083 /* Gong Gothic OTF Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gong Gothic OTF Light.otf"; sourceTree = "<group>"; };
+		FD05CA52254901A300E27083 /* CookieRun Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CookieRun Black.ttf"; sourceTree = "<group>"; };
+		FD05CA53254901A300E27083 /* Maplestory OTF Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maplestory OTF Bold.otf"; sourceTree = "<group>"; };
+		FD05CA54254901A300E27083 /* ImcreSoojin OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ImcreSoojin OTF.otf"; sourceTree = "<group>"; };
+		FD05CA56254901A400E27083 /* Recipekorea 레코체 FONT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recipekorea 레코체 FONT.ttf"; sourceTree = "<group>"; };
+		FD05CA57254901A400E27083 /* CookieRun Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CookieRun Bold.ttf"; sourceTree = "<group>"; };
+		FD05CA58254901A400E27083 /* Gong Gothic OTF Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gong Gothic OTF Bold.otf"; sourceTree = "<group>"; };
+		FD05CA5E254901A700E27083 /* CookieRun Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CookieRun Regular.ttf"; sourceTree = "<group>"; };
+		FD05CA7A254926CF00E27083 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FD0DFBB4256677E400C6E8E8 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD0DFBB5256677E400C6E8E8 /* CalendarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCollectionViewCell.xib; sourceTree = "<group>"; };
+		FD32E4AA257F6D71008ED7B6 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		FD32E4AB257F6D71008ED7B6 /* CalendarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarTableViewCell.xib; sourceTree = "<group>"; };
+		FD32E4B425808F2B008ED7B6 /* CheckAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAuthViewController.swift; sourceTree = "<group>"; };
+		FD32E4CC2580DFC4008ED7B6 /* DogVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogVO.swift; sourceTree = "<group>"; };
+		FD32E4D02580E7F4008ED7B6 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		FD32E4E625811569008ED7B6 /* MyDogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDogCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD32E4E725811569008ED7B6 /* MyDogCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyDogCollectionViewCell.xib; sourceTree = "<group>"; };
+		FD32E4ED258380F3008ED7B6 /* HomeVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVO.swift; sourceTree = "<group>"; };
+		FD32E4F42583F768008ED7B6 /* UpdateDogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDogViewController.swift; sourceTree = "<group>"; };
+		FD32E4F925870B59008ED7B6 /* MailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		FD32E4FE25879C9F008ED7B6 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		FD46AF0225A2D2F800B6F201 /* FaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
+		FD47C933254E69E6001D9252 /* WalkVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkVO.swift; sourceTree = "<group>"; };
+		FD47C937254E6C4B001D9252 /* WeightVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightVO.swift; sourceTree = "<group>"; };
+		FD47C93B254E6C68001D9252 /* HeartVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartVO.swift; sourceTree = "<group>"; };
+		FD47C93E254E6C7C001D9252 /* WashVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashVO.swift; sourceTree = "<group>"; };
+		FD47C948254E8134001D9252 /* MoneyVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyVO.swift; sourceTree = "<group>"; };
+		FD47C950254FAABD001D9252 /* dogCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogCalendarViewController.swift; sourceTree = "<group>"; };
+		FD5329F5258D41B80033318F /* LocationUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUseViewController.swift; sourceTree = "<group>"; };
+		FD5E322D260DA0F500717FA5 /* RemoveAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAdViewController.swift; sourceTree = "<group>"; };
+		FD61448C2560F000000C3F38 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		FD61448F256130B4000C3F38 /* SmsReAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsReAuthViewController.swift; sourceTree = "<group>"; };
+		FD649AFD25C1BF8500C432ED /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		FD649B0025DAC3D300C432ED /* EtcPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcPopUpViewController.swift; sourceTree = "<group>"; };
+		FD649B0A25DB04B000C432ED /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD649B0B25DB04B000C432ED /* ColorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		FD937C1725DC15FE0061B486 /* EtcVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcVO.swift; sourceTree = "<group>"; };
+		FD937C1A25DCE2F60061B486 /* CalendarVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVO.swift; sourceTree = "<group>"; };
+		FD937C1F25DED0180061B486 /* WalkUpdatePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkUpdatePopUpViewController.swift; sourceTree = "<group>"; };
+		FD937C2525DF7EA40061B486 /* WeightUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightUpdateViewController.swift; sourceTree = "<group>"; };
+		FD937C2825DFAB700061B486 /* MoneyUpdatePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyUpdatePopUpViewController.swift; sourceTree = "<group>"; };
+		FD937C2B25DFBBF10061B486 /* EtcUpdatePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcUpdatePopUpViewController.swift; sourceTree = "<group>"; };
+		FD937C3025EE28860061B486 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		FDB8B9A82558027F008BCDCD /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		FDB8B9AB25580296008BCDCD /* TermsAndUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndUseViewController.swift; sourceTree = "<group>"; };
+		FDB8B9AE255804DA008BCDCD /* MailAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAuthViewController.swift; sourceTree = "<group>"; };
+		FDC27004258B4435009F9545 /* WalkDirectPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkDirectPopUpViewController.swift; sourceTree = "<group>"; };
+		FDE6CA652575967C00336A93 /* Cafe24Ohsquare.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Ohsquare.ttf; sourceTree = "<group>"; };
+		FDE6CA71257B4E5900336A93 /* Spoqa Han Sans Neo Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Neo Bold.otf"; sourceTree = "<group>"; };
+		FDE91C5A254A46BE00BAB8B0 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		FDE91C61254BD30700BAB8B0 /* WalkPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPopUpViewController.swift; sourceTree = "<group>"; };
+		FDE91C64254BDCF100BAB8B0 /* WashPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashPopUpViewController.swift; sourceTree = "<group>"; };
+		FDE91C67254BDD0300BAB8B0 /* WeightPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightPopUpViewController.swift; sourceTree = "<group>"; };
+		FDE91C6A254BDD2E00BAB8B0 /* HeartPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartPopUpViewController.swift; sourceTree = "<group>"; };
+		FDE91C6D254BDD3F00BAB8B0 /* MoneyPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyPopUpViewController.swift; sourceTree = "<group>"; };
+		FDE91C7A254CDC8E00BAB8B0 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		FDFD30402548C371009BA2BD /* dogDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFD30432548C371009BA2BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDFD30452548C371009BA2BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDFD304A2548C371009BA2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDFD304C2548C371009BA2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDFD304F2548C371009BA2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDFD30512548C371009BA2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDFD303D2548C371009BA2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32E5022587A987008ED7B6 /* Pods_dogDiary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107AB5590EB56106F81EACFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E39F71CDF14016F3C1D144 /* Pods-dogDiary.debug.xcconfig */,
+				D7C12814922902E407D926CB /* Pods-dogDiary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD05CA312548C5B100E27083 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				FD05CA342548C5C600E27083 /* Controller */,
+				FD05CA322548C5C600E27083 /* Model */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		FD05CA322548C5C600E27083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD05CA442548F6FC00E27083 /* MemberVO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD05CA342548C5C600E27083 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD05CA402548F5D800E27083 /* SmsAuthViewController.swift */,
+				FD32E4B425808F2B008ED7B6 /* CheckAuthViewController.swift */,
+				FDB8B9AE255804DA008BCDCD /* MailAuthViewController.swift */,
+				FD61448F256130B4000C3F38 /* SmsReAuthViewController.swift */,
+				FD937C3025EE28860061B486 /* AdminViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD05CA4A2549018800E27083 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FDE6CA71257B4E5900336A93 /* Spoqa Han Sans Neo Bold.otf */,
+				FD05CA4E254901A200E27083 /* Cafe24Ohsquareair.ttf */,
+				FDE6CA652575967C00336A93 /* Cafe24Ohsquare.ttf */,
+				FD05CA4C254901A200E27083 /* Cafe24Ssurround.ttf */,
+				FD05CA52254901A300E27083 /* CookieRun Black.ttf */,
+				FD05CA57254901A400E27083 /* CookieRun Bold.ttf */,
+				FD05CA5E254901A700E27083 /* CookieRun Regular.ttf */,
+				FD05CA58254901A400E27083 /* Gong Gothic OTF Bold.otf */,
+				FD05CA51254901A300E27083 /* Gong Gothic OTF Light.otf */,
+				FD05CA50254901A300E27083 /* Gong Gothic OTF Medium.otf */,
+				FD05CA54254901A300E27083 /* ImcreSoojin OTF.otf */,
+				FD05CA53254901A300E27083 /* Maplestory OTF Bold.otf */,
+				FD05CA4D254901A200E27083 /* Maplestory OTF Light.otf */,
+				FD05CA56254901A400E27083 /* Recipekorea 레코체 FONT.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FD0DFBB9256720C200C6E8E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD47C950254FAABD001D9252 /* dogCalendarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD0DFBBA256720CF00C6E8E8 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				FD0DFBB4256677E400C6E8E8 /* CalendarCollectionViewCell.swift */,
+				FD0DFBB5256677E400C6E8E8 /* CalendarCollectionViewCell.xib */,
+				FD32E4AA257F6D71008ED7B6 /* CalendarTableViewCell.swift */,
+				FD32E4AB257F6D71008ED7B6 /* CalendarTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		FD32E4B72580A350008ED7B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD61448C2560F000000C3F38 /* SettingViewController.swift */,
+				FD32E4D02580E7F4008ED7B6 /* SettingTableViewController.swift */,
+				FD46AF0225A2D2F800B6F201 /* FaqViewController.swift */,
+				FDB8B9A82558027F008BCDCD /* PrivacyViewController.swift */,
+				FDB8B9AB25580296008BCDCD /* TermsAndUseViewController.swift */,
+				FD5329F5258D41B80033318F /* LocationUseViewController.swift */,
+				FD32E4F925870B59008ED7B6 /* MailViewController.swift */,
+				FD5E322D260DA0F500717FA5 /* RemoveAdViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD32E4C02580C695008ED7B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E4CC2580DFC4008ED7B6 /* DogVO.swift */,
+				FD32E4ED258380F3008ED7B6 /* HomeVO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD32E4C32580C79C008ED7B6 /* PopupController */ = {
+			isa = PBXGroup;
+			children = (
+				FDE91C61254BD30700BAB8B0 /* WalkPopUpViewController.swift */,
+				FDC27004258B4435009F9545 /* WalkDirectPopUpViewController.swift */,
+				FDE91C64254BDCF100BAB8B0 /* WashPopUpViewController.swift */,
+				FDE91C67254BDD0300BAB8B0 /* WeightPopUpViewController.swift */,
+				FDE91C6A254BDD2E00BAB8B0 /* HeartPopUpViewController.swift */,
+				FDE91C6D254BDD3F00BAB8B0 /* MoneyPopUpViewController.swift */,
+				FD649B0025DAC3D300C432ED /* EtcPopUpViewController.swift */,
+			);
+			path = PopupController;
+			sourceTree = "<group>";
+		};
+		FD32E4F025839A74008ED7B6 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E4E725811569008ED7B6 /* MyDogCollectionViewCell.xib */,
+				FD32E4E625811569008ED7B6 /* MyDogCollectionViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		FD47C94F254FAA90001D9252 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				FDE91C71254BDDD800BAB8B0 /* Model */,
+				FD0DFBBA256720CF00C6E8E8 /* CustomCell */,
+				FD0DFBB9256720C200C6E8E8 /* Controller */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		FD6144952564DED2000C3F38 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E4F025839A74008ED7B6 /* CustomCell */,
+				FD32E4B72580A350008ED7B6 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		FD649B0325DAF0B400C432ED /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				FD649B0A25DB04B000C432ED /* ColorCollectionViewCell.swift */,
+				FD649B0B25DB04B000C432ED /* ColorCollectionViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		FD8802C4ECF35CA978DC7987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E4FE25879C9F008ED7B6 /* HealthKit.framework */,
+				87351365A10CF02B3D7CD6DF /* Pods_dogDiary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD937C1E25DECE3E0061B486 /* UpdatePopupController */ = {
+			isa = PBXGroup;
+			children = (
+				FD937C1F25DED0180061B486 /* WalkUpdatePopUpViewController.swift */,
+				FD937C2525DF7EA40061B486 /* WeightUpdateViewController.swift */,
+				FD937C2825DFAB700061B486 /* MoneyUpdatePopUpViewController.swift */,
+				FD937C2B25DFBBF10061B486 /* EtcUpdatePopUpViewController.swift */,
+			);
+			path = UpdatePopupController;
+			sourceTree = "<group>";
+		};
+		FDE6CA68257A1B7C00336A93 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FDFD304C2548C371009BA2BD /* Assets.xcassets */,
+				FDE91C7A254CDC8E00BAB8B0 /* Common.swift */,
+				FDFD30432548C371009BA2BD /* AppDelegate.swift */,
+				FDFD30452548C371009BA2BD /* SceneDelegate.swift */,
+				FD649AFD25C1BF8500C432ED /* IAPHelper.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		FDE91C542549FB6500BAB8B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E4C02580C695008ED7B6 /* Model */,
+				FDE91C70254BDDC200BAB8B0 /* Controller */,
+				FD32E4C32580C79C008ED7B6 /* PopupController */,
+				FD937C1E25DECE3E0061B486 /* UpdatePopupController */,
+				FD649B0325DAF0B400C432ED /* CustomCell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FDE91C70254BDDC200BAB8B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD05CA7A254926CF00E27083 /* HomeViewController.swift */,
+				FDE91C5A254A46BE00BAB8B0 /* JoinViewController.swift */,
+				FD32E4F42583F768008ED7B6 /* UpdateDogViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDE91C71254BDDD800BAB8B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD47C937254E6C4B001D9252 /* WeightVO.swift */,
+				FD47C93B254E6C68001D9252 /* HeartVO.swift */,
+				FD47C93E254E6C7C001D9252 /* WashVO.swift */,
+				FD47C933254E69E6001D9252 /* WalkVO.swift */,
+				FD47C948254E8134001D9252 /* MoneyVO.swift */,
+				FD937C1725DC15FE0061B486 /* EtcVO.swift */,
+				FD937C1A25DCE2F60061B486 /* CalendarVO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDFD30372548C371009BA2BD = {
+			isa = PBXGroup;
+			children = (
+				FDFD30422548C371009BA2BD /* dogDiary */,
+				FDFD30412548C371009BA2BD /* Products */,
+				107AB5590EB56106F81EACFE /* Pods */,
+				FD8802C4ECF35CA978DC7987 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDFD30412548C371009BA2BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDFD30402548C371009BA2BD /* dogDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDFD30422548C371009BA2BD /* dogDiary */ = {
+			isa = PBXGroup;
+			children = (
+				FD05CA4A2549018800E27083 /* Font */,
+				FDE6CA68257A1B7C00336A93 /* Support */,
+				FD6144952564DED2000C3F38 /* Setting */,
+				FD47C94F254FAA90001D9252 /* Calendar */,
+				FDE91C542549FB6500BAB8B0 /* Home */,
+				FD05CA312548C5B100E27083 /* Member */,
+				FDFD30492548C371009BA2BD /* Main.storyboard */,
+				FDFD304E2548C371009BA2BD /* LaunchScreen.storyboard */,
+				FDFD30512548C371009BA2BD /* Info.plist */,
+			);
+			path = dogDiary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDFD303F2548C371009BA2BD /* dogDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFD30542548C371009BA2BD /* Build configuration list for PBXNativeTarget "dogDiary" */;
+			buildPhases = (
+				0FE617D4D0B7521E739CEBC8 /* [CP] Check Pods Manifest.lock */,
+				FDFD303C2548C371009BA2BD /* Sources */,
+				FDFD303D2548C371009BA2BD /* Frameworks */,
+				FDFD303E2548C371009BA2BD /* Resources */,
+				B2363E7DAFC9DCBFB8DC7A58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dogDiary;
+			productName = dogDiary;
+			productReference = FDFD30402548C371009BA2BD /* dogDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDFD30382548C371009BA2BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FDFD303F2548C371009BA2BD = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = FDFD303B2548C371009BA2BD /* Build configuration list for PBXProject "dogDiary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDFD30372548C371009BA2BD;
+			productRefGroup = FDFD30412548C371009BA2BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDFD303F2548C371009BA2BD /* dogDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDFD303E2548C371009BA2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD649B0D25DB04B000C432ED /* ColorCollectionViewCell.xib in Resources */,
+				FDE6CA76257B4E5A00336A93 /* Spoqa Han Sans Neo Bold.otf in Resources */,
+				FD05CA69254901A700E27083 /* ImcreSoojin OTF.otf in Resources */,
+				FD05CA68254901A700E27083 /* Maplestory OTF Bold.otf in Resources */,
+				FD05CA73254901A700E27083 /* CookieRun Regular.ttf in Resources */,
+				FD05CA62254901A700E27083 /* Maplestory OTF Light.otf in Resources */,
+				FD05CA66254901A700E27083 /* Gong Gothic OTF Light.otf in Resources */,
+				FD05CA67254901A700E27083 /* CookieRun Black.ttf in Resources */,
+				FDE6CA662575967C00336A93 /* Cafe24Ohsquare.ttf in Resources */,
+				FDFD30502548C371009BA2BD /* LaunchScreen.storyboard in Resources */,
+				FD05CA6B254901A700E27083 /* Recipekorea 레코체 FONT.ttf in Resources */,
+				FD05CA63254901A700E27083 /* Cafe24Ohsquareair.ttf in Resources */,
+				FD05CA6D254901A700E27083 /* Gong Gothic OTF Bold.otf in Resources */,
+				FDFD304D2548C371009BA2BD /* Assets.xcassets in Resources */,
+				FD05CA61254901A700E27083 /* Cafe24Ssurround.ttf in Resources */,
+				FD05CA65254901A700E27083 /* Gong Gothic OTF Medium.otf in Resources */,
+				FD0DFBB7256677E400C6E8E8 /* CalendarCollectionViewCell.xib in Resources */,
+				FD05CA6C254901A700E27083 /* CookieRun Bold.ttf in Resources */,
+				FDFD304B2548C371009BA2BD /* Main.storyboard in Resources */,
+				FD32E4AD257F6D71008ED7B6 /* CalendarTableViewCell.xib in Resources */,
+				FD32E4E925811569008ED7B6 /* MyDogCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE617D4D0B7521E739CEBC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogDiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2363E7DAFC9DCBFB8DC7A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogDiary/Pods-dogDiary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogDiary/Pods-dogDiary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dogDiary/Pods-dogDiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDFD303C2548C371009BA2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE91C7B254CDC8E00BAB8B0 /* Common.swift in Sources */,
+				FD32E4E825811569008ED7B6 /* MyDogCollectionViewCell.swift in Sources */,
+				FDFD30442548C371009BA2BD /* AppDelegate.swift in Sources */,
+				FD0DFBB6256677E400C6E8E8 /* CalendarCollectionViewCell.swift in Sources */,
+				FD649AFE25C1BF8500C432ED /* IAPHelper.swift in Sources */,
+				FD32E4D12580E7F4008ED7B6 /* SettingTableViewController.swift in Sources */,
+				FD32E4AC257F6D71008ED7B6 /* CalendarTableViewCell.swift in Sources */,
+				FD5E322E260DA0F500717FA5 /* RemoveAdViewController.swift in Sources */,
+				FDE91C62254BD30700BAB8B0 /* WalkPopUpViewController.swift in Sources */,
+				FD47C938254E6C4B001D9252 /* WeightVO.swift in Sources */,
+				FD47C93F254E6C7C001D9252 /* WashVO.swift in Sources */,
+				FDE91C6B254BDD2E00BAB8B0 /* HeartPopUpViewController.swift in Sources */,
+				FD47C93C254E6C68001D9252 /* HeartVO.swift in Sources */,
+				FD05CA412548F5D800E27083 /* SmsAuthViewController.swift in Sources */,
+				FD05CA452548F6FC00E27083 /* MemberVO.swift in Sources */,
+				FD46AF0325A2D2F800B6F201 /* FaqViewController.swift in Sources */,
+				FD5329F6258D41B80033318F /* LocationUseViewController.swift in Sources */,
+				FD32E4B525808F2B008ED7B6 /* CheckAuthViewController.swift in Sources */,
+				FD937C2C25DFBBF10061B486 /* EtcUpdatePopUpViewController.swift in Sources */,
+				FD937C3125EE28860061B486 /* AdminViewController.swift in Sources */,
+				FD32E4F52583F768008ED7B6 /* UpdateDogViewController.swift in Sources */,
+				FD649B0125DAC3D300C432ED /* EtcPopUpViewController.swift in Sources */,
+				FDE91C6E254BDD3F00BAB8B0 /* MoneyPopUpViewController.swift in Sources */,
+				FD61448D2560F000000C3F38 /* SettingViewController.swift in Sources */,
+				FDFD30462548C371009BA2BD /* SceneDelegate.swift in Sources */,
+				FDB8B9AC25580296008BCDCD /* TermsAndUseViewController.swift in Sources */,
+				FD47C951254FAABD001D9252 /* dogCalendarViewController.swift in Sources */,
+				FD614490256130B4000C3F38 /* SmsReAuthViewController.swift in Sources */,
+				FD32E4FA25870B59008ED7B6 /* MailViewController.swift in Sources */,
+				FD649B0C25DB04B000C432ED /* ColorCollectionViewCell.swift in Sources */,
+				FDB8B9AF255804DA008BCDCD /* MailAuthViewController.swift in Sources */,
+				FD937C2925DFAB700061B486 /* MoneyUpdatePopUpViewController.swift in Sources */,
+				FD32E4EE258380F3008ED7B6 /* HomeVO.swift in Sources */,
+				FD05CA7B254926CF00E27083 /* HomeViewController.swift in Sources */,
+				FD937C1825DC15FE0061B486 /* EtcVO.swift in Sources */,
+				FD937C2625DF7EA40061B486 /* WeightUpdateViewController.swift in Sources */,
+				FD47C949254E8134001D9252 /* MoneyVO.swift in Sources */,
+				FD32E4CD2580DFC4008ED7B6 /* DogVO.swift in Sources */,
+				FDE91C65254BDCF100BAB8B0 /* WashPopUpViewController.swift in Sources */,
+				FD937C1B25DCE2F60061B486 /* CalendarVO.swift in Sources */,
+				FDE91C68254BDD0300BAB8B0 /* WeightPopUpViewController.swift in Sources */,
+				FDB8B9A92558027F008BCDCD /* PrivacyViewController.swift in Sources */,
+				FD47C934254E69E6001D9252 /* WalkVO.swift in Sources */,
+				FDE91C5B254A46BE00BAB8B0 /* JoinViewController.swift in Sources */,
+				FDC27005258B4436009F9545 /* WalkDirectPopUpViewController.swift in Sources */,
+				FD937C2025DED0180061B486 /* WalkUpdatePopUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDFD30492548C371009BA2BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFD304A2548C371009BA2BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDFD304E2548C371009BA2BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFD304F2548C371009BA2BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDFD30522548C371009BA2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDFD30532548C371009BA2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDFD30552548C371009BA2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E39F71CDF14016F3C1D144 /* Pods-dogDiary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dogDiary/dogDiary.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
+				INFOPLIST_FILE = dogDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.najin.dogDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDFD30562548C371009BA2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C12814922902E407D926CB /* Pods-dogDiary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dogDiary/dogDiary.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
+				INFOPLIST_FILE = dogDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.najin.dogDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDFD303B2548C371009BA2BD /* Build configuration list for PBXProject "dogDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFD30522548C371009BA2BD /* Debug */,
+				FDFD30532548C371009BA2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFD30542548C371009BA2BD /* Build configuration list for PBXNativeTarget "dogDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFD30552548C371009BA2BD /* Debug */,
+				FDFD30562548C371009BA2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDFD30382548C371009BA2BD /* Project object */;
+}

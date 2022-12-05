@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="tableCell" editingAccessoryType="checkmark" rowHeight="49" id="KGk-i7-Jjw" customClass="CalendarTableViewCell" customModule="dogDiary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AKC-42-fkf">
+                        <rect key="frame" x="0.0" y="0.0" width="322" height="60"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dyN-oz-cjm">
+                                <rect key="frame" x="3" y="5" width="10" height="50"/>
+                                <color key="backgroundColor" name="mint"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="bYZ-hI-uAs"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="멍멍이의 활동내역" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0J-l1-kuW">
+                                <rect key="frame" x="23" y="5" width="296" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="vWd-dB-yBP"/>
+                        </constraints>
+                        <edgeInsets key="layoutMargins" top="5" left="3" bottom="5" right="3"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AKC-42-fkf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2uf-yd-lWf"/>
+                    <constraint firstAttribute="trailing" secondItem="AKC-42-fkf" secondAttribute="trailing" id="Cz8-vi-qxZ"/>
+                    <constraint firstAttribute="bottom" secondItem="AKC-42-fkf" secondAttribute="bottom" id="c7r-zK-JwD"/>
+                    <constraint firstItem="AKC-42-fkf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sCa-Yg-ihg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="colorView" destination="dyN-oz-cjm" id="P6N-wR-Brr"/>
+                <outlet property="label" destination="G0J-l1-kuW" id="Evw-ju-fKF"/>
+            </connections>
+            <point key="canvasLocation" x="133.33333333333334" y="64.620535714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="mint">
+            <color red="0.36862745098039218" green="0.61960784313725492" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
