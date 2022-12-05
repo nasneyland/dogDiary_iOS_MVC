@@ -1,6 +1,7 @@
 ## dogDiary_iOS
 2020년 12월 23일에 앱스토어에 출시한 반려견 다이어리 iOS 프로젝트 입니다.<br/>
 [앱스토어 바로가기](https://apps.apple.com/kr/app/pangyojangteo/id1545660854?l=ko&ls=1)<br/>
+[노션 바로가기](https://najinland.notion.site/a87b6517f55b4b9f8a9a5d67bc61689c)<br/>
 
 <a href="https://github.com/nasneyland/dogDiary_iOS"><img src="https://img.shields.io/badge/iOS 프로젝트-000000?style=flat-square&logo=Apple&logoColor=white"/></a> <a href="https://github.com/nasneyland/dogDiary_Android"><img src="https://img.shields.io/badge/Android 프로젝트-000000?style=flat-square&logo=Android&logoColor=white"/></a> <a href="https://github.com/nasneyland/dogDiary_Backend"><img src="https://img.shields.io/badge/Backend 프로젝트-000000?style=flat-square&logo=Django&logoColor=white"/></a>
 
