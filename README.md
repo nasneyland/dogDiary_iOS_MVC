@@ -1,6 +1,14 @@
 ## dogDiary_iOS
+
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_01.webp"  width="150"> <img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_02.webp"  width="150">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_03.webp"  width="150">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_04.webp"  width="150">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_05.webp"  width="150">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_06.webp"  width="150">
+
+
 2020년 12월 23일에 앱스토어에 출시한 반려견 다이어리 iOS 프로젝트 입니다.<br/>
-[앱스토어 바로가기](https://apps.apple.com/kr/app/pangyojangteo/id1545660854?l=ko&ls=1)<br/>
+[앱스토어 바로가기](https://apps.apple.com/kr/app/pangyojangteo/id1545660854?l=ko&ls=1)<br/>           
 [노션 바로가기](https://najinland.notion.site/a87b6517f55b4b9f8a9a5d67bc61689c)<br/>
 
 <a href="https://github.com/nasneyland/dogDiary_iOS"><img src="https://img.shields.io/badge/iOS 프로젝트-000000?style=flat-square&logo=Apple&logoColor=white"/></a> <a href="https://github.com/nasneyland/dogDiary_Android"><img src="https://img.shields.io/badge/Android 프로젝트-000000?style=flat-square&logo=Android&logoColor=white"/></a> <a href="https://github.com/nasneyland/dogDiary_Backend"><img src="https://img.shields.io/badge/Backend 프로젝트-000000?style=flat-square&logo=Django&logoColor=white"/></a>
@@ -29,7 +37,7 @@
 - 핸드폰 번호가 바뀐 경우를 고려해 이메일 로그인 기능도 추가구현 -> 설정에서 미리 복구용 이메일을 등록 후 로그인 가능
 
 ### 주요 기능
-- 산책기록 : **NaverMap** 라이브러리를 이용하여 마커, 클릭이벤트, 이동경로 등 커스텀하여 산책 기록 기능 구현, 산책 특성 상 화면이 꺼진 상태에서도 산책을 기록해야 하기 때문에 BackgroundMode-Location updates 사용
+- 산책기록 : **NaverMap** 라이브러리를 이용하여 마커, 클릭이벤트, 이동경로 등 커스텀하여 산책 기록 기능 구현, 산책 특성 상 화면이 꺼진 상태에서도 산책을 기록해야 하기 때문에 **BackgroundMode-Location updates** 사용
 - 캘린더 : **FSCalendar** 라이브러리를 이용하여 달력 구현, 네이버 캘린더를 벤치마킹하여 셀을 커스텀하여 구현
-- 통계관리 : Progress View를 이용한 비율 그래프 구현, Charts를 이용한 선 그래프 구현
-- 광고집행 : GoogleMobileAds를 이용하여 어플 내 배너광고, 전면광고 삽입
+- 통계관리 : **Progress View**를 이용한 비율 그래프 구현, **Charts**를 이용한 선 그래프 구현
+- 광고집행 : **GoogleMobileAds**를 이용하여 어플 내 배너광고, 전면광고 삽입
