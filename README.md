@@ -1,10 +1,10 @@
 ## dogDiary_iOS
 
-<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_01.webp"  width="110"> <img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_02.webp"  width="110">
-<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_03.webp"  width="110">
-<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_04.webp"  width="110">
-<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_05.webp"  width="110">
-<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary_06.webp"  width="110">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary/dogdiary_01.webp"  width="120"> <img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary/dogdiary_02.webp"  width="120">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary/dogdiary_03.webp"  width="120">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary/dogdiary_04.webp"  width="120">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary/dogdiary_05.webp"  width="120">
+<img src="https://raw.githubusercontent.com/nasneyland/nasneyland/main/dogdiary/dogdiary_06.webp"  width="120">
 
 
 2020년 12월 23일에 앱스토어에 출시한 반려견 다이어리 iOS 프로젝트 입니다.<br/>
